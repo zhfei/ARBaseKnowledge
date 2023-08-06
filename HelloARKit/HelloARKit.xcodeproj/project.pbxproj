@@ -11,6 +11,7 @@
 		919B73B82A7F51C500CA91DB /* ARMoveSCNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 919B73B72A7F51C500CA91DB /* ARMoveSCNViewController.m */; };
 		919B73BB2A7F522C00CA91DB /* ARRotationSCNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 919B73BA2A7F522C00CA91DB /* ARRotationSCNViewController.m */; };
 		919B73BE2A7F525F00CA91DB /* ARPlanSCNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 919B73BD2A7F525F00CA91DB /* ARPlanSCNViewController.m */; };
+		919B73C22A7F550B00CA91DB /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 919B73C12A7F550B00CA91DB /* Models.scnassets */; };
 		91C63A5B2A7D4C7C00C391A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C63A5A2A7D4C7C00C391A8 /* AppDelegate.m */; };
 		91C63A5E2A7D4C7C00C391A8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C63A5D2A7D4C7C00C391A8 /* SceneDelegate.m */; };
 		91C63A612A7D4C7C00C391A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C63A602A7D4C7C00C391A8 /* ViewController.m */; };
@@ -29,6 +30,7 @@
 		919B73BA2A7F522C00CA91DB /* ARRotationSCNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARRotationSCNViewController.m; sourceTree = "<group>"; };
 		919B73BC2A7F525F00CA91DB /* ARPlanSCNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARPlanSCNViewController.h; sourceTree = "<group>"; };
 		919B73BD2A7F525F00CA91DB /* ARPlanSCNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARPlanSCNViewController.m; sourceTree = "<group>"; };
+		919B73C12A7F550B00CA91DB /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
 		91C63A562A7D4C7C00C391A8 /* HelloARKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloARKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91C63A592A7D4C7C00C391A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		91C63A5A2A7D4C7C00C391A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				91C63A6A2A7D4C7D00C391A8 /* Info.plist */,
 				91C63A6B2A7D4C7D00C391A8 /* main.m */,
 				919B73B52A7F512D00CA91DB /* ViewControllers */,
+				919B73C12A7F550B00CA91DB /* Models.scnassets */,
 			);
 			path = HelloARKit;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91C63A692A7D4C7D00C391A8 /* LaunchScreen.storyboard in Resources */,
+				919B73C22A7F550B00CA91DB /* Models.scnassets in Resources */,
 				91C63A662A7D4C7D00C391A8 /* Assets.xcassets in Resources */,
 				91C63A642A7D4C7C00C391A8 /* Main.storyboard in Resources */,
 			);
@@ -338,7 +342,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = zhf.HelloARKit;
+				PRODUCT_BUNDLE_IDENTIFIER = zhf.Hello;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -364,7 +368,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = zhf.HelloARKit;
+				PRODUCT_BUNDLE_IDENTIFIER = zhf.Hello;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
