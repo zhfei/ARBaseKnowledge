@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		919B73B42A7F512000CA91DB /* ARSCNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 919B73B32A7F512000CA91DB /* ARSCNViewController.m */; };
+		919B73B82A7F51C500CA91DB /* ARMoveSCNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 919B73B72A7F51C500CA91DB /* ARMoveSCNViewController.m */; };
+		919B73BB2A7F522C00CA91DB /* ARRotationSCNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 919B73BA2A7F522C00CA91DB /* ARRotationSCNViewController.m */; };
+		919B73BE2A7F525F00CA91DB /* ARPlanSCNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 919B73BD2A7F525F00CA91DB /* ARPlanSCNViewController.m */; };
 		91C63A5B2A7D4C7C00C391A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C63A5A2A7D4C7C00C391A8 /* AppDelegate.m */; };
 		91C63A5E2A7D4C7C00C391A8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C63A5D2A7D4C7C00C391A8 /* SceneDelegate.m */; };
 		91C63A612A7D4C7C00C391A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C63A602A7D4C7C00C391A8 /* ViewController.m */; };
@@ -17,6 +21,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		919B73B22A7F512000CA91DB /* ARSCNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARSCNViewController.h; sourceTree = "<group>"; };
+		919B73B32A7F512000CA91DB /* ARSCNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARSCNViewController.m; sourceTree = "<group>"; };
+		919B73B62A7F51C500CA91DB /* ARMoveSCNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARMoveSCNViewController.h; sourceTree = "<group>"; };
+		919B73B72A7F51C500CA91DB /* ARMoveSCNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARMoveSCNViewController.m; sourceTree = "<group>"; };
+		919B73B92A7F522C00CA91DB /* ARRotationSCNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARRotationSCNViewController.h; sourceTree = "<group>"; };
+		919B73BA2A7F522C00CA91DB /* ARRotationSCNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARRotationSCNViewController.m; sourceTree = "<group>"; };
+		919B73BC2A7F525F00CA91DB /* ARPlanSCNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARPlanSCNViewController.h; sourceTree = "<group>"; };
+		919B73BD2A7F525F00CA91DB /* ARPlanSCNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARPlanSCNViewController.m; sourceTree = "<group>"; };
 		91C63A562A7D4C7C00C391A8 /* HelloARKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloARKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91C63A592A7D4C7C00C391A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		91C63A5A2A7D4C7C00C391A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -42,6 +54,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		919B73B52A7F512D00CA91DB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				919B73B22A7F512000CA91DB /* ARSCNViewController.h */,
+				919B73B32A7F512000CA91DB /* ARSCNViewController.m */,
+				919B73B62A7F51C500CA91DB /* ARMoveSCNViewController.h */,
+				919B73B72A7F51C500CA91DB /* ARMoveSCNViewController.m */,
+				919B73B92A7F522C00CA91DB /* ARRotationSCNViewController.h */,
+				919B73BA2A7F522C00CA91DB /* ARRotationSCNViewController.m */,
+				919B73BC2A7F525F00CA91DB /* ARPlanSCNViewController.h */,
+				919B73BD2A7F525F00CA91DB /* ARPlanSCNViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		91C63A4D2A7D4C7C00C391A8 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +99,7 @@
 				91C63A672A7D4C7D00C391A8 /* LaunchScreen.storyboard */,
 				91C63A6A2A7D4C7D00C391A8 /* Info.plist */,
 				91C63A6B2A7D4C7D00C391A8 /* main.m */,
+				919B73B52A7F512D00CA91DB /* ViewControllers */,
 			);
 			path = HelloARKit;
 			sourceTree = "<group>";
@@ -146,9 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				919B73BB2A7F522C00CA91DB /* ARRotationSCNViewController.m in Sources */,
 				91C63A612A7D4C7C00C391A8 /* ViewController.m in Sources */,
 				91C63A5B2A7D4C7C00C391A8 /* AppDelegate.m in Sources */,
 				91C63A6C2A7D4C7D00C391A8 /* main.m in Sources */,
+				919B73B82A7F51C500CA91DB /* ARMoveSCNViewController.m in Sources */,
+				919B73BE2A7F525F00CA91DB /* ARPlanSCNViewController.m in Sources */,
+				919B73B42A7F512000CA91DB /* ARSCNViewController.m in Sources */,
 				91C63A5E2A7D4C7C00C391A8 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
