@@ -20,7 +20,9 @@ class ViewController: UIViewController {
 //        let arSc = UIScene()
         
 //        ARCamera.TrackingState.Reason
-        let prevc = MyPreviewController()
+//        let prevc = MyPreviewController()
+        
+        let prevc = Simple3DShowController()
         
         self.view.addSubview(prevc.view)
         self.addChild(prevc)

@@ -18,6 +18,7 @@
 		91A110682AE4D82F007473AB /* HelloRealityKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A110672AE4D82F007473AB /* HelloRealityKitUITestsLaunchTests.swift */; };
 		91A110AC2AE5338A007473AB /* MyARKitPreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A110AB2AE53389007473AB /* MyARKitPreviewController.swift */; };
 		91A110AE2AE53570007473AB /* AirForce.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 91A110AD2AE53570007473AB /* AirForce.usdz */; };
+		91A110B42AE5615F007473AB /* Simple3DShowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A110B32AE5615E007473AB /* Simple3DShowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		91A110672AE4D82F007473AB /* HelloRealityKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloRealityKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		91A110AB2AE53389007473AB /* MyARKitPreviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyARKitPreviewController.swift; sourceTree = "<group>"; };
 		91A110AD2AE53570007473AB /* AirForce.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = AirForce.usdz; sourceTree = "<group>"; };
+		91A110B32AE5615E007473AB /* Simple3DShowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple3DShowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				91A1104F2AE4D82E007473AB /* LaunchScreen.storyboard */,
 				91A110522AE4D82E007473AB /* Info.plist */,
 				91A110AB2AE53389007473AB /* MyARKitPreviewController.swift */,
+				91A110B32AE5615E007473AB /* Simple3DShowController.swift */,
 			);
 			path = HelloRealityKit;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91A110AC2AE5338A007473AB /* MyARKitPreviewController.swift in Sources */,
+				91A110B42AE5615F007473AB /* Simple3DShowController.swift in Sources */,
 				91A110492AE4D82B007473AB /* ViewController.swift in Sources */,
 				91A110452AE4D82B007473AB /* AppDelegate.swift in Sources */,
 				91A110472AE4D82B007473AB /* SceneDelegate.swift in Sources */,
