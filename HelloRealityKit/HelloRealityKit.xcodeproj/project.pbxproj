@@ -16,6 +16,8 @@
 		91A1105C2AE4D82F007473AB /* HelloRealityKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A1105B2AE4D82F007473AB /* HelloRealityKitTests.swift */; };
 		91A110662AE4D82F007473AB /* HelloRealityKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A110652AE4D82F007473AB /* HelloRealityKitUITests.swift */; };
 		91A110682AE4D82F007473AB /* HelloRealityKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A110672AE4D82F007473AB /* HelloRealityKitUITestsLaunchTests.swift */; };
+		91A110AC2AE5338A007473AB /* MyARKitPreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A110AB2AE53389007473AB /* MyARKitPreviewController.swift */; };
+		91A110AE2AE53570007473AB /* AirForce.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 91A110AD2AE53570007473AB /* AirForce.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		91A110612AE4D82F007473AB /* HelloRealityKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloRealityKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91A110652AE4D82F007473AB /* HelloRealityKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloRealityKitUITests.swift; sourceTree = "<group>"; };
 		91A110672AE4D82F007473AB /* HelloRealityKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloRealityKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		91A110AB2AE53389007473AB /* MyARKitPreviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyARKitPreviewController.swift; sourceTree = "<group>"; };
+		91A110AD2AE53570007473AB /* AirForce.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = AirForce.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		91A110432AE4D82B007473AB /* HelloRealityKit */ = {
 			isa = PBXGroup;
 			children = (
+				91A110AD2AE53570007473AB /* AirForce.usdz */,
 				91A110442AE4D82B007473AB /* AppDelegate.swift */,
 				91A110462AE4D82B007473AB /* SceneDelegate.swift */,
 				91A110482AE4D82B007473AB /* ViewController.swift */,
@@ -106,6 +111,7 @@
 				91A1104D2AE4D82E007473AB /* Assets.xcassets */,
 				91A1104F2AE4D82E007473AB /* LaunchScreen.storyboard */,
 				91A110522AE4D82E007473AB /* Info.plist */,
+				91A110AB2AE53389007473AB /* MyARKitPreviewController.swift */,
 			);
 			path = HelloRealityKit;
 			sourceTree = "<group>";
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91A110AE2AE53570007473AB /* AirForce.usdz in Resources */,
 				91A110512AE4D82E007473AB /* LaunchScreen.storyboard in Resources */,
 				91A1104E2AE4D82E007473AB /* Assets.xcassets in Resources */,
 				91A1104C2AE4D82B007473AB /* Main.storyboard in Resources */,
@@ -258,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91A110AC2AE5338A007473AB /* MyARKitPreviewController.swift in Sources */,
 				91A110492AE4D82B007473AB /* ViewController.swift in Sources */,
 				91A110452AE4D82B007473AB /* AppDelegate.swift in Sources */,
 				91A110472AE4D82B007473AB /* SceneDelegate.swift in Sources */,
@@ -368,7 +376,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -425,7 +433,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -442,6 +450,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C7UNH8293N;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HelloRealityKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -449,12 +458,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = zhf.HelloRealityKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhfei;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -469,6 +479,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C7UNH8293N;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HelloRealityKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -476,12 +487,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = zhf.HelloRealityKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhfei;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

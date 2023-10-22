@@ -16,14 +16,19 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         
-        let arV = ARView(frame: CGRectMake(0, 0, 100, 100))
-        let arSc = UIScene()
+//        let arV = ARView(frame: CGRectMake(0, 0, 100, 100))
+//        let arSc = UIScene()
         
 //        ARCamera.TrackingState.Reason
+        let prevc = MyPreviewController()
         
+        self.view.addSubview(prevc.view)
+        self.addChild(prevc)
         
         
     }
+    
+
 
 
 }
