@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91A110812AE529E9007473AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A110802AE529E9007473AB /* AppDelegate.swift */; };
+		91A110832AE529E9007473AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A110822AE529E9007473AB /* ViewController.swift */; };
+		91A110852AE529EE007473AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91A110842AE529EE007473AB /* Assets.xcassets */; };
+		91A110882AE529EE007473AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91A110862AE529EE007473AB /* Main.storyboard */; };
+		91A110932AE529EF007473AB /* HelloMacRealityKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A110922AE529EF007473AB /* HelloMacRealityKitTests.swift */; };
+		91A1109D2AE529EF007473AB /* HelloMacRealityKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A1109C2AE529EF007473AB /* HelloMacRealityKitUITests.swift */; };
+		91A1109F2AE529EF007473AB /* HelloMacRealityKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A1109E2AE529EF007473AB /* HelloMacRealityKitUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91A1108F2AE529EF007473AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91A110752AE529E9007473AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91A1107C2AE529E9007473AB;
+			remoteInfo = HelloMacRealityKit;
+		};
+		91A110992AE529EF007473AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91A110752AE529E9007473AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91A1107C2AE529E9007473AB;
+			remoteInfo = HelloMacRealityKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91A1107D2AE529E9007473AB /* HelloMacRealityKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMacRealityKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A110802AE529E9007473AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91A110822AE529E9007473AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91A110842AE529EE007473AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91A110872AE529EE007473AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91A110892AE529EE007473AB /* HelloMacRealityKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HelloMacRealityKit.entitlements; sourceTree = "<group>"; };
+		91A1108E2AE529EF007473AB /* HelloMacRealityKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloMacRealityKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A110922AE529EF007473AB /* HelloMacRealityKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloMacRealityKitTests.swift; sourceTree = "<group>"; };
+		91A110982AE529EF007473AB /* HelloMacRealityKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloMacRealityKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A1109C2AE529EF007473AB /* HelloMacRealityKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloMacRealityKitUITests.swift; sourceTree = "<group>"; };
+		91A1109E2AE529EF007473AB /* HelloMacRealityKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloMacRealityKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91A1107A2AE529E9007473AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91A1108B2AE529EF007473AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91A110952AE529EF007473AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91A110742AE529E9007473AB = {
+			isa = PBXGroup;
+			children = (
+				91A1107F2AE529E9007473AB /* HelloMacRealityKit */,
+				91A110912AE529EF007473AB /* HelloMacRealityKitTests */,
+				91A1109B2AE529EF007473AB /* HelloMacRealityKitUITests */,
+				91A1107E2AE529E9007473AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91A1107E2AE529E9007473AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91A1107D2AE529E9007473AB /* HelloMacRealityKit.app */,
+				91A1108E2AE529EF007473AB /* HelloMacRealityKitTests.xctest */,
+				91A110982AE529EF007473AB /* HelloMacRealityKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91A1107F2AE529E9007473AB /* HelloMacRealityKit */ = {
+			isa = PBXGroup;
+			children = (
+				91A110802AE529E9007473AB /* AppDelegate.swift */,
+				91A110822AE529E9007473AB /* ViewController.swift */,
+				91A110842AE529EE007473AB /* Assets.xcassets */,
+				91A110862AE529EE007473AB /* Main.storyboard */,
+				91A110892AE529EE007473AB /* HelloMacRealityKit.entitlements */,
+			);
+			path = HelloMacRealityKit;
+			sourceTree = "<group>";
+		};
+		91A110912AE529EF007473AB /* HelloMacRealityKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				91A110922AE529EF007473AB /* HelloMacRealityKitTests.swift */,
+			);
+			path = HelloMacRealityKitTests;
+			sourceTree = "<group>";
+		};
+		91A1109B2AE529EF007473AB /* HelloMacRealityKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91A1109C2AE529EF007473AB /* HelloMacRealityKitUITests.swift */,
+				91A1109E2AE529EF007473AB /* HelloMacRealityKitUITestsLaunchTests.swift */,
+			);
+			path = HelloMacRealityKitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91A1107C2AE529E9007473AB /* HelloMacRealityKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91A110A22AE529EF007473AB /* Build configuration list for PBXNativeTarget "HelloMacRealityKit" */;
+			buildPhases = (
+				91A110792AE529E9007473AB /* Sources */,
+				91A1107A2AE529E9007473AB /* Frameworks */,
+				91A1107B2AE529E9007473AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloMacRealityKit;
+			productName = HelloMacRealityKit;
+			productReference = 91A1107D2AE529E9007473AB /* HelloMacRealityKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91A1108D2AE529EF007473AB /* HelloMacRealityKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91A110A52AE529EF007473AB /* Build configuration list for PBXNativeTarget "HelloMacRealityKitTests" */;
+			buildPhases = (
+				91A1108A2AE529EF007473AB /* Sources */,
+				91A1108B2AE529EF007473AB /* Frameworks */,
+				91A1108C2AE529EF007473AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91A110902AE529EF007473AB /* PBXTargetDependency */,
+			);
+			name = HelloMacRealityKitTests;
+			productName = HelloMacRealityKitTests;
+			productReference = 91A1108E2AE529EF007473AB /* HelloMacRealityKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91A110972AE529EF007473AB /* HelloMacRealityKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91A110A82AE529EF007473AB /* Build configuration list for PBXNativeTarget "HelloMacRealityKitUITests" */;
+			buildPhases = (
+				91A110942AE529EF007473AB /* Sources */,
+				91A110952AE529EF007473AB /* Frameworks */,
+				91A110962AE529EF007473AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91A1109A2AE529EF007473AB /* PBXTargetDependency */,
+			);
+			name = HelloMacRealityKitUITests;
+			productName = HelloMacRealityKitUITests;
+			productReference = 91A110982AE529EF007473AB /* HelloMacRealityKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91A110752AE529E9007473AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					91A1107C2AE529E9007473AB = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					91A1108D2AE529EF007473AB = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 91A1107C2AE529E9007473AB;
+					};
+					91A110972AE529EF007473AB = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 91A1107C2AE529E9007473AB;
+					};
+				};
+			};
+			buildConfigurationList = 91A110782AE529E9007473AB /* Build configuration list for PBXProject "HelloMacRealityKit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91A110742AE529E9007473AB;
+			productRefGroup = 91A1107E2AE529E9007473AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91A1107C2AE529E9007473AB /* HelloMacRealityKit */,
+				91A1108D2AE529EF007473AB /* HelloMacRealityKitTests */,
+				91A110972AE529EF007473AB /* HelloMacRealityKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91A1107B2AE529E9007473AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A110852AE529EE007473AB /* Assets.xcassets in Resources */,
+				91A110882AE529EE007473AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91A1108C2AE529EF007473AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91A110962AE529EF007473AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91A110792AE529E9007473AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A110832AE529E9007473AB /* ViewController.swift in Sources */,
+				91A110812AE529E9007473AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91A1108A2AE529EF007473AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A110932AE529EF007473AB /* HelloMacRealityKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91A110942AE529EF007473AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A1109D2AE529EF007473AB /* HelloMacRealityKitUITests.swift in Sources */,
+				91A1109F2AE529EF007473AB /* HelloMacRealityKitUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91A110902AE529EF007473AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91A1107C2AE529E9007473AB /* HelloMacRealityKit */;
+			targetProxy = 91A1108F2AE529EF007473AB /* PBXContainerItemProxy */;
+		};
+		91A1109A2AE529EF007473AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91A1107C2AE529E9007473AB /* HelloMacRealityKit */;
+			targetProxy = 91A110992AE529EF007473AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91A110862AE529EE007473AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91A110872AE529EE007473AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91A110A02AE529EF007473AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91A110A12AE529EF007473AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		91A110A32AE529EF007473AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HelloMacRealityKit/HelloMacRealityKit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zhf.HelloMacRealityKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		91A110A42AE529EF007473AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HelloMacRealityKit/HelloMacRealityKit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zhf.HelloMacRealityKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		91A110A62AE529EF007473AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zhf.HelloMacRealityKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloMacRealityKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HelloMacRealityKit";
+			};
+			name = Debug;
+		};
+		91A110A72AE529EF007473AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zhf.HelloMacRealityKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloMacRealityKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HelloMacRealityKit";
+			};
+			name = Release;
+		};
+		91A110A92AE529EF007473AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zhf.HelloMacRealityKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = HelloMacRealityKit;
+			};
+			name = Debug;
+		};
+		91A110AA2AE529EF007473AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zhf.HelloMacRealityKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = HelloMacRealityKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91A110782AE529E9007473AB /* Build configuration list for PBXProject "HelloMacRealityKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91A110A02AE529EF007473AB /* Debug */,
+				91A110A12AE529EF007473AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91A110A22AE529EF007473AB /* Build configuration list for PBXNativeTarget "HelloMacRealityKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91A110A32AE529EF007473AB /* Debug */,
+				91A110A42AE529EF007473AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91A110A52AE529EF007473AB /* Build configuration list for PBXNativeTarget "HelloMacRealityKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91A110A62AE529EF007473AB /* Debug */,
+				91A110A72AE529EF007473AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91A110A82AE529EF007473AB /* Build configuration list for PBXNativeTarget "HelloMacRealityKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91A110A92AE529EF007473AB /* Debug */,
+				91A110AA2AE529EF007473AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91A110752AE529E9007473AB /* Project object */;
+}

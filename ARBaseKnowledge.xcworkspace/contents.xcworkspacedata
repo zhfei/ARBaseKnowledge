@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:HelloMacRealityKit/HelloMacRealityKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:HelloRealityKit/HelloRealityKit.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:HelloARKit/HelloARKit.xcodeproj">
    </FileRef>
 </Workspace>
