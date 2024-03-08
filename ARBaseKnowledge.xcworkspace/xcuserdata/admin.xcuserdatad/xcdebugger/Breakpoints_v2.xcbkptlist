@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "EE49792B-B6EA-4761-AE81-0DDAC09441C8"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E163419D-AEFF-4E41-9E5F-F315911DFFD9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUIRealityKit/SwiftUIRealityKit/CupARViewContainer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "viewTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F7ABDEDD-39CF-44F1-8E50-9935078B85DE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUIRealityKit/SwiftUIRealityKit/CupARViewContainer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "makeUIView(context:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F7ABDEDD-39CF-44F1-8E50-9935078B85DE - 6f83a6ef2073e3b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftUIRealityKit.CupARViewContainerView.makeUIView(context: SwiftUI.UIViewRepresentableContext&lt;SwiftUIRealityKit.CupARViewContainerView&gt;) -&gt; some"
+                  moduleName = "SwiftUIRealityKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Documents/MyFile/ARBaseKnowledge/SwiftUIRealityKit/SwiftUIRealityKit/CupARViewContainer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "452">
+               </Location>
+               <Location
+                  uuid = "F7ABDEDD-39CF-44F1-8E50-9935078B85DE - 6f83a6ef2073e3b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftUIRealityKit.CupARViewContainerView.makeUIView(context: SwiftUI.UIViewRepresentableContext&lt;SwiftUIRealityKit.CupARViewContainerView&gt;) -&gt; some"
+                  moduleName = "SwiftUIRealityKit"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Documents/MyFile/ARBaseKnowledge/SwiftUIRealityKit/SwiftUIRealityKit/CupARViewContainer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "704">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

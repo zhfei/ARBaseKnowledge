@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84B2D6572B99723E00E40F0A /* SimpleRealityShowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2D6562B99723E00E40F0A /* SimpleRealityShowController.swift */; };
+		84DCC4362B4D127B0069FE2C /* T_Bazooka_Mp_01_E.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DCC4302B4D127B0069FE2C /* T_Bazooka_Mp_01_E.png */; };
+		84DCC4372B4D127B0069FE2C /* T_Bazooka_Mp_01_D.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DCC4312B4D127B0069FE2C /* T_Bazooka_Mp_01_D.png */; };
+		84DCC4382B4D127B0069FE2C /* untitled.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 84DCC4322B4D127B0069FE2C /* untitled.mtl */; };
+		84DCC4392B4D127B0069FE2C /* untitled.obj in Resources */ = {isa = PBXBuildFile; fileRef = 84DCC4332B4D127B0069FE2C /* untitled.obj */; };
+		84DCC43A2B4D127B0069FE2C /* T_Bazooka_Mp_01_M.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DCC4342B4D127B0069FE2C /* T_Bazooka_Mp_01_M.png */; };
+		84DCC43B2B4D127B0069FE2C /* T_Bazooka_Mp_01_N.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DCC4352B4D127B0069FE2C /* T_Bazooka_Mp_01_N.png */; };
+		84DCC43D2B4D13130069FE2C /* Simple3DObjShowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCC43C2B4D13130069FE2C /* Simple3DObjShowController.swift */; };
 		91A110452AE4D82B007473AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A110442AE4D82B007473AB /* AppDelegate.swift */; };
 		91A110472AE4D82B007473AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A110462AE4D82B007473AB /* SceneDelegate.swift */; };
 		91A110492AE4D82B007473AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A110482AE4D82B007473AB /* ViewController.swift */; };
@@ -39,6 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84B2D6562B99723E00E40F0A /* SimpleRealityShowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleRealityShowController.swift; sourceTree = "<group>"; };
+		84DCC4302B4D127B0069FE2C /* T_Bazooka_Mp_01_E.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T_Bazooka_Mp_01_E.png; sourceTree = "<group>"; };
+		84DCC4312B4D127B0069FE2C /* T_Bazooka_Mp_01_D.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T_Bazooka_Mp_01_D.png; sourceTree = "<group>"; };
+		84DCC4322B4D127B0069FE2C /* untitled.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = untitled.mtl; sourceTree = "<group>"; };
+		84DCC4332B4D127B0069FE2C /* untitled.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = untitled.obj; sourceTree = "<group>"; };
+		84DCC4342B4D127B0069FE2C /* T_Bazooka_Mp_01_M.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T_Bazooka_Mp_01_M.png; sourceTree = "<group>"; };
+		84DCC4352B4D127B0069FE2C /* T_Bazooka_Mp_01_N.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T_Bazooka_Mp_01_N.png; sourceTree = "<group>"; };
+		84DCC43C2B4D13130069FE2C /* Simple3DObjShowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple3DObjShowController.swift; sourceTree = "<group>"; };
 		91A110412AE4D82B007473AB /* HelloRealityKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloRealityKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91A110442AE4D82B007473AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91A110462AE4D82B007473AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +98,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84DCC42F2B4D127B0069FE2C /* SM_Bazooka_Mp_01_Test_export_obj */ = {
+			isa = PBXGroup;
+			children = (
+				84DCC4302B4D127B0069FE2C /* T_Bazooka_Mp_01_E.png */,
+				84DCC4312B4D127B0069FE2C /* T_Bazooka_Mp_01_D.png */,
+				84DCC4322B4D127B0069FE2C /* untitled.mtl */,
+				84DCC4332B4D127B0069FE2C /* untitled.obj */,
+				84DCC4342B4D127B0069FE2C /* T_Bazooka_Mp_01_M.png */,
+				84DCC4352B4D127B0069FE2C /* T_Bazooka_Mp_01_N.png */,
+			);
+			path = SM_Bazooka_Mp_01_Test_export_obj;
+			sourceTree = "<group>";
+		};
 		91A110382AE4D82A007473AB = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +134,7 @@
 		91A110432AE4D82B007473AB /* HelloRealityKit */ = {
 			isa = PBXGroup;
 			children = (
+				84DCC42F2B4D127B0069FE2C /* SM_Bazooka_Mp_01_Test_export_obj */,
 				91A110AD2AE53570007473AB /* AirForce.usdz */,
 				91A110442AE4D82B007473AB /* AppDelegate.swift */,
 				91A110462AE4D82B007473AB /* SceneDelegate.swift */,
@@ -115,6 +145,8 @@
 				91A110522AE4D82E007473AB /* Info.plist */,
 				91A110AB2AE53389007473AB /* MyARKitPreviewController.swift */,
 				91A110B32AE5615E007473AB /* Simple3DShowController.swift */,
+				84DCC43C2B4D13130069FE2C /* Simple3DObjShowController.swift */,
+				84B2D6562B99723E00E40F0A /* SimpleRealityShowController.swift */,
 			);
 			path = HelloRealityKit;
 			sourceTree = "<group>";
@@ -242,8 +274,14 @@
 			files = (
 				91A110AE2AE53570007473AB /* AirForce.usdz in Resources */,
 				91A110512AE4D82E007473AB /* LaunchScreen.storyboard in Resources */,
+				84DCC4382B4D127B0069FE2C /* untitled.mtl in Resources */,
 				91A1104E2AE4D82E007473AB /* Assets.xcassets in Resources */,
+				84DCC4362B4D127B0069FE2C /* T_Bazooka_Mp_01_E.png in Resources */,
+				84DCC43B2B4D127B0069FE2C /* T_Bazooka_Mp_01_N.png in Resources */,
+				84DCC43A2B4D127B0069FE2C /* T_Bazooka_Mp_01_M.png in Resources */,
 				91A1104C2AE4D82B007473AB /* Main.storyboard in Resources */,
+				84DCC4392B4D127B0069FE2C /* untitled.obj in Resources */,
+				84DCC4372B4D127B0069FE2C /* T_Bazooka_Mp_01_D.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +308,11 @@
 			files = (
 				91A110AC2AE5338A007473AB /* MyARKitPreviewController.swift in Sources */,
 				91A110B42AE5615F007473AB /* Simple3DShowController.swift in Sources */,
+				84B2D6572B99723E00E40F0A /* SimpleRealityShowController.swift in Sources */,
 				91A110492AE4D82B007473AB /* ViewController.swift in Sources */,
 				91A110452AE4D82B007473AB /* AppDelegate.swift in Sources */,
 				91A110472AE4D82B007473AB /* SceneDelegate.swift in Sources */,
+				84DCC43D2B4D13130069FE2C /* Simple3DObjShowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
